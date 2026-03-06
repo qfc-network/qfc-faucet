@@ -230,7 +230,7 @@ export default function FaucetPage() {
           <p className="mt-1">
             RPC:{' '}
             <code className="bg-gray-100 px-2 py-0.5 rounded">
-              http://127.0.0.1:8545
+              {process.env.NEXT_PUBLIC_RPC_URL || 'https://rpc.testnet.qfc.network'}
             </code>
           </p>
         </div>
