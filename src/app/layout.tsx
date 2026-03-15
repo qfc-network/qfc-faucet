@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'QFC Testnet Faucet',
   description: 'Get free QFC tokens for testing',
+  icons: { icon: '/favicon.ico' },
 };
 
 export default function RootLayout({
